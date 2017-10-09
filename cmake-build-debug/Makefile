@@ -111,17 +111,611 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cpptest
+# Target rules for targets named AlgoTests
 
 # Build rule for target.
-cpptest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cpptest
-.PHONY : cpptest
+AlgoTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AlgoTests
+.PHONY : AlgoTests
 
 # fast build rule for target.
-cpptest/fast:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/build
-.PHONY : cpptest/fast
+AlgoTests/fast:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/build
+.PHONY : AlgoTests/fast
+
+HackerRank/AppleAndOrangeTrees.o: HackerRank/AppleAndOrangeTrees.cpp.o
+
+.PHONY : HackerRank/AppleAndOrangeTrees.o
+
+# target to build an object file
+HackerRank/AppleAndOrangeTrees.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/HackerRank/AppleAndOrangeTrees.cpp.o
+.PHONY : HackerRank/AppleAndOrangeTrees.cpp.o
+
+HackerRank/AppleAndOrangeTrees.i: HackerRank/AppleAndOrangeTrees.cpp.i
+
+.PHONY : HackerRank/AppleAndOrangeTrees.i
+
+# target to preprocess a source file
+HackerRank/AppleAndOrangeTrees.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/HackerRank/AppleAndOrangeTrees.cpp.i
+.PHONY : HackerRank/AppleAndOrangeTrees.cpp.i
+
+HackerRank/AppleAndOrangeTrees.s: HackerRank/AppleAndOrangeTrees.cpp.s
+
+.PHONY : HackerRank/AppleAndOrangeTrees.s
+
+# target to generate assembly for a file
+HackerRank/AppleAndOrangeTrees.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/HackerRank/AppleAndOrangeTrees.cpp.s
+.PHONY : HackerRank/AppleAndOrangeTrees.cpp.s
+
+LeetCode/ContainerWithMostWater.o: LeetCode/ContainerWithMostWater.cpp.o
+
+.PHONY : LeetCode/ContainerWithMostWater.o
+
+# target to build an object file
+LeetCode/ContainerWithMostWater.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ContainerWithMostWater.cpp.o
+.PHONY : LeetCode/ContainerWithMostWater.cpp.o
+
+LeetCode/ContainerWithMostWater.i: LeetCode/ContainerWithMostWater.cpp.i
+
+.PHONY : LeetCode/ContainerWithMostWater.i
+
+# target to preprocess a source file
+LeetCode/ContainerWithMostWater.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ContainerWithMostWater.cpp.i
+.PHONY : LeetCode/ContainerWithMostWater.cpp.i
+
+LeetCode/ContainerWithMostWater.s: LeetCode/ContainerWithMostWater.cpp.s
+
+.PHONY : LeetCode/ContainerWithMostWater.s
+
+# target to generate assembly for a file
+LeetCode/ContainerWithMostWater.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ContainerWithMostWater.cpp.s
+.PHONY : LeetCode/ContainerWithMostWater.cpp.s
+
+LeetCode/FriendCricles.o: LeetCode/FriendCricles.cpp.o
+
+.PHONY : LeetCode/FriendCricles.o
+
+# target to build an object file
+LeetCode/FriendCricles.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/FriendCricles.cpp.o
+.PHONY : LeetCode/FriendCricles.cpp.o
+
+LeetCode/FriendCricles.i: LeetCode/FriendCricles.cpp.i
+
+.PHONY : LeetCode/FriendCricles.i
+
+# target to preprocess a source file
+LeetCode/FriendCricles.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/FriendCricles.cpp.i
+.PHONY : LeetCode/FriendCricles.cpp.i
+
+LeetCode/FriendCricles.s: LeetCode/FriendCricles.cpp.s
+
+.PHONY : LeetCode/FriendCricles.s
+
+# target to generate assembly for a file
+LeetCode/FriendCricles.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/FriendCricles.cpp.s
+.PHONY : LeetCode/FriendCricles.cpp.s
+
+LeetCode/IntegerPalindrome.o: LeetCode/IntegerPalindrome.cpp.o
+
+.PHONY : LeetCode/IntegerPalindrome.o
+
+# target to build an object file
+LeetCode/IntegerPalindrome.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/IntegerPalindrome.cpp.o
+.PHONY : LeetCode/IntegerPalindrome.cpp.o
+
+LeetCode/IntegerPalindrome.i: LeetCode/IntegerPalindrome.cpp.i
+
+.PHONY : LeetCode/IntegerPalindrome.i
+
+# target to preprocess a source file
+LeetCode/IntegerPalindrome.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/IntegerPalindrome.cpp.i
+.PHONY : LeetCode/IntegerPalindrome.cpp.i
+
+LeetCode/IntegerPalindrome.s: LeetCode/IntegerPalindrome.cpp.s
+
+.PHONY : LeetCode/IntegerPalindrome.s
+
+# target to generate assembly for a file
+LeetCode/IntegerPalindrome.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/IntegerPalindrome.cpp.s
+.PHONY : LeetCode/IntegerPalindrome.cpp.s
+
+LeetCode/IntegerToRomanNum.o: LeetCode/IntegerToRomanNum.cpp.o
+
+.PHONY : LeetCode/IntegerToRomanNum.o
+
+# target to build an object file
+LeetCode/IntegerToRomanNum.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/IntegerToRomanNum.cpp.o
+.PHONY : LeetCode/IntegerToRomanNum.cpp.o
+
+LeetCode/IntegerToRomanNum.i: LeetCode/IntegerToRomanNum.cpp.i
+
+.PHONY : LeetCode/IntegerToRomanNum.i
+
+# target to preprocess a source file
+LeetCode/IntegerToRomanNum.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/IntegerToRomanNum.cpp.i
+.PHONY : LeetCode/IntegerToRomanNum.cpp.i
+
+LeetCode/IntegerToRomanNum.s: LeetCode/IntegerToRomanNum.cpp.s
+
+.PHONY : LeetCode/IntegerToRomanNum.s
+
+# target to generate assembly for a file
+LeetCode/IntegerToRomanNum.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/IntegerToRomanNum.cpp.s
+.PHONY : LeetCode/IntegerToRomanNum.cpp.s
+
+LeetCode/IsSubsequence.o: LeetCode/IsSubsequence.cpp.o
+
+.PHONY : LeetCode/IsSubsequence.o
+
+# target to build an object file
+LeetCode/IsSubsequence.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/IsSubsequence.cpp.o
+.PHONY : LeetCode/IsSubsequence.cpp.o
+
+LeetCode/IsSubsequence.i: LeetCode/IsSubsequence.cpp.i
+
+.PHONY : LeetCode/IsSubsequence.i
+
+# target to preprocess a source file
+LeetCode/IsSubsequence.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/IsSubsequence.cpp.i
+.PHONY : LeetCode/IsSubsequence.cpp.i
+
+LeetCode/IsSubsequence.s: LeetCode/IsSubsequence.cpp.s
+
+.PHONY : LeetCode/IsSubsequence.s
+
+# target to generate assembly for a file
+LeetCode/IsSubsequence.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/IsSubsequence.cpp.s
+.PHONY : LeetCode/IsSubsequence.cpp.s
+
+LeetCode/LengthofLongestSubstringSolution.o: LeetCode/LengthofLongestSubstringSolution.cpp.o
+
+.PHONY : LeetCode/LengthofLongestSubstringSolution.o
+
+# target to build an object file
+LeetCode/LengthofLongestSubstringSolution.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/LengthofLongestSubstringSolution.cpp.o
+.PHONY : LeetCode/LengthofLongestSubstringSolution.cpp.o
+
+LeetCode/LengthofLongestSubstringSolution.i: LeetCode/LengthofLongestSubstringSolution.cpp.i
+
+.PHONY : LeetCode/LengthofLongestSubstringSolution.i
+
+# target to preprocess a source file
+LeetCode/LengthofLongestSubstringSolution.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/LengthofLongestSubstringSolution.cpp.i
+.PHONY : LeetCode/LengthofLongestSubstringSolution.cpp.i
+
+LeetCode/LengthofLongestSubstringSolution.s: LeetCode/LengthofLongestSubstringSolution.cpp.s
+
+.PHONY : LeetCode/LengthofLongestSubstringSolution.s
+
+# target to generate assembly for a file
+LeetCode/LengthofLongestSubstringSolution.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/LengthofLongestSubstringSolution.cpp.s
+.PHONY : LeetCode/LengthofLongestSubstringSolution.cpp.s
+
+LeetCode/LongestCommonPrefixString.o: LeetCode/LongestCommonPrefixString.cpp.o
+
+.PHONY : LeetCode/LongestCommonPrefixString.o
+
+# target to build an object file
+LeetCode/LongestCommonPrefixString.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/LongestCommonPrefixString.cpp.o
+.PHONY : LeetCode/LongestCommonPrefixString.cpp.o
+
+LeetCode/LongestCommonPrefixString.i: LeetCode/LongestCommonPrefixString.cpp.i
+
+.PHONY : LeetCode/LongestCommonPrefixString.i
+
+# target to preprocess a source file
+LeetCode/LongestCommonPrefixString.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/LongestCommonPrefixString.cpp.i
+.PHONY : LeetCode/LongestCommonPrefixString.cpp.i
+
+LeetCode/LongestCommonPrefixString.s: LeetCode/LongestCommonPrefixString.cpp.s
+
+.PHONY : LeetCode/LongestCommonPrefixString.s
+
+# target to generate assembly for a file
+LeetCode/LongestCommonPrefixString.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/LongestCommonPrefixString.cpp.s
+.PHONY : LeetCode/LongestCommonPrefixString.cpp.s
+
+LeetCode/LongestUnivaluePath.o: LeetCode/LongestUnivaluePath.cpp.o
+
+.PHONY : LeetCode/LongestUnivaluePath.o
+
+# target to build an object file
+LeetCode/LongestUnivaluePath.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/LongestUnivaluePath.cpp.o
+.PHONY : LeetCode/LongestUnivaluePath.cpp.o
+
+LeetCode/LongestUnivaluePath.i: LeetCode/LongestUnivaluePath.cpp.i
+
+.PHONY : LeetCode/LongestUnivaluePath.i
+
+# target to preprocess a source file
+LeetCode/LongestUnivaluePath.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/LongestUnivaluePath.cpp.i
+.PHONY : LeetCode/LongestUnivaluePath.cpp.i
+
+LeetCode/LongestUnivaluePath.s: LeetCode/LongestUnivaluePath.cpp.s
+
+.PHONY : LeetCode/LongestUnivaluePath.s
+
+# target to generate assembly for a file
+LeetCode/LongestUnivaluePath.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/LongestUnivaluePath.cpp.s
+.PHONY : LeetCode/LongestUnivaluePath.cpp.s
+
+LeetCode/MedianSortedArrays.o: LeetCode/MedianSortedArrays.cpp.o
+
+.PHONY : LeetCode/MedianSortedArrays.o
+
+# target to build an object file
+LeetCode/MedianSortedArrays.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/MedianSortedArrays.cpp.o
+.PHONY : LeetCode/MedianSortedArrays.cpp.o
+
+LeetCode/MedianSortedArrays.i: LeetCode/MedianSortedArrays.cpp.i
+
+.PHONY : LeetCode/MedianSortedArrays.i
+
+# target to preprocess a source file
+LeetCode/MedianSortedArrays.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/MedianSortedArrays.cpp.i
+.PHONY : LeetCode/MedianSortedArrays.cpp.i
+
+LeetCode/MedianSortedArrays.s: LeetCode/MedianSortedArrays.cpp.s
+
+.PHONY : LeetCode/MedianSortedArrays.s
+
+# target to generate assembly for a file
+LeetCode/MedianSortedArrays.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/MedianSortedArrays.cpp.s
+.PHONY : LeetCode/MedianSortedArrays.cpp.s
+
+LeetCode/MinRotatedSortedArr.o: LeetCode/MinRotatedSortedArr.cpp.o
+
+.PHONY : LeetCode/MinRotatedSortedArr.o
+
+# target to build an object file
+LeetCode/MinRotatedSortedArr.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/MinRotatedSortedArr.cpp.o
+.PHONY : LeetCode/MinRotatedSortedArr.cpp.o
+
+LeetCode/MinRotatedSortedArr.i: LeetCode/MinRotatedSortedArr.cpp.i
+
+.PHONY : LeetCode/MinRotatedSortedArr.i
+
+# target to preprocess a source file
+LeetCode/MinRotatedSortedArr.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/MinRotatedSortedArr.cpp.i
+.PHONY : LeetCode/MinRotatedSortedArr.cpp.i
+
+LeetCode/MinRotatedSortedArr.s: LeetCode/MinRotatedSortedArr.cpp.s
+
+.PHONY : LeetCode/MinRotatedSortedArr.s
+
+# target to generate assembly for a file
+LeetCode/MinRotatedSortedArr.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/MinRotatedSortedArr.cpp.s
+.PHONY : LeetCode/MinRotatedSortedArr.cpp.s
+
+LeetCode/PalindromeLinkedList.o: LeetCode/PalindromeLinkedList.cpp.o
+
+.PHONY : LeetCode/PalindromeLinkedList.o
+
+# target to build an object file
+LeetCode/PalindromeLinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/PalindromeLinkedList.cpp.o
+.PHONY : LeetCode/PalindromeLinkedList.cpp.o
+
+LeetCode/PalindromeLinkedList.i: LeetCode/PalindromeLinkedList.cpp.i
+
+.PHONY : LeetCode/PalindromeLinkedList.i
+
+# target to preprocess a source file
+LeetCode/PalindromeLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/PalindromeLinkedList.cpp.i
+.PHONY : LeetCode/PalindromeLinkedList.cpp.i
+
+LeetCode/PalindromeLinkedList.s: LeetCode/PalindromeLinkedList.cpp.s
+
+.PHONY : LeetCode/PalindromeLinkedList.s
+
+# target to generate assembly for a file
+LeetCode/PalindromeLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/PalindromeLinkedList.cpp.s
+.PHONY : LeetCode/PalindromeLinkedList.cpp.s
+
+LeetCode/PascalsTriangle.o: LeetCode/PascalsTriangle.cpp.o
+
+.PHONY : LeetCode/PascalsTriangle.o
+
+# target to build an object file
+LeetCode/PascalsTriangle.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/PascalsTriangle.cpp.o
+.PHONY : LeetCode/PascalsTriangle.cpp.o
+
+LeetCode/PascalsTriangle.i: LeetCode/PascalsTriangle.cpp.i
+
+.PHONY : LeetCode/PascalsTriangle.i
+
+# target to preprocess a source file
+LeetCode/PascalsTriangle.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/PascalsTriangle.cpp.i
+.PHONY : LeetCode/PascalsTriangle.cpp.i
+
+LeetCode/PascalsTriangle.s: LeetCode/PascalsTriangle.cpp.s
+
+.PHONY : LeetCode/PascalsTriangle.s
+
+# target to generate assembly for a file
+LeetCode/PascalsTriangle.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/PascalsTriangle.cpp.s
+.PHONY : LeetCode/PascalsTriangle.cpp.s
+
+LeetCode/PowerOfFour.o: LeetCode/PowerOfFour.cpp.o
+
+.PHONY : LeetCode/PowerOfFour.o
+
+# target to build an object file
+LeetCode/PowerOfFour.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/PowerOfFour.cpp.o
+.PHONY : LeetCode/PowerOfFour.cpp.o
+
+LeetCode/PowerOfFour.i: LeetCode/PowerOfFour.cpp.i
+
+.PHONY : LeetCode/PowerOfFour.i
+
+# target to preprocess a source file
+LeetCode/PowerOfFour.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/PowerOfFour.cpp.i
+.PHONY : LeetCode/PowerOfFour.cpp.i
+
+LeetCode/PowerOfFour.s: LeetCode/PowerOfFour.cpp.s
+
+.PHONY : LeetCode/PowerOfFour.s
+
+# target to generate assembly for a file
+LeetCode/PowerOfFour.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/PowerOfFour.cpp.s
+.PHONY : LeetCode/PowerOfFour.cpp.s
+
+LeetCode/ReverseInteger.o: LeetCode/ReverseInteger.cpp.o
+
+.PHONY : LeetCode/ReverseInteger.o
+
+# target to build an object file
+LeetCode/ReverseInteger.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ReverseInteger.cpp.o
+.PHONY : LeetCode/ReverseInteger.cpp.o
+
+LeetCode/ReverseInteger.i: LeetCode/ReverseInteger.cpp.i
+
+.PHONY : LeetCode/ReverseInteger.i
+
+# target to preprocess a source file
+LeetCode/ReverseInteger.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ReverseInteger.cpp.i
+.PHONY : LeetCode/ReverseInteger.cpp.i
+
+LeetCode/ReverseInteger.s: LeetCode/ReverseInteger.cpp.s
+
+.PHONY : LeetCode/ReverseInteger.s
+
+# target to generate assembly for a file
+LeetCode/ReverseInteger.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ReverseInteger.cpp.s
+.PHONY : LeetCode/ReverseInteger.cpp.s
+
+LeetCode/ThirdMax.o: LeetCode/ThirdMax.cpp.o
+
+.PHONY : LeetCode/ThirdMax.o
+
+# target to build an object file
+LeetCode/ThirdMax.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ThirdMax.cpp.o
+.PHONY : LeetCode/ThirdMax.cpp.o
+
+LeetCode/ThirdMax.i: LeetCode/ThirdMax.cpp.i
+
+.PHONY : LeetCode/ThirdMax.i
+
+# target to preprocess a source file
+LeetCode/ThirdMax.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ThirdMax.cpp.i
+.PHONY : LeetCode/ThirdMax.cpp.i
+
+LeetCode/ThirdMax.s: LeetCode/ThirdMax.cpp.s
+
+.PHONY : LeetCode/ThirdMax.s
+
+# target to generate assembly for a file
+LeetCode/ThirdMax.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ThirdMax.cpp.s
+.PHONY : LeetCode/ThirdMax.cpp.s
+
+LeetCode/ThreeSum.o: LeetCode/ThreeSum.cpp.o
+
+.PHONY : LeetCode/ThreeSum.o
+
+# target to build an object file
+LeetCode/ThreeSum.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ThreeSum.cpp.o
+.PHONY : LeetCode/ThreeSum.cpp.o
+
+LeetCode/ThreeSum.i: LeetCode/ThreeSum.cpp.i
+
+.PHONY : LeetCode/ThreeSum.i
+
+# target to preprocess a source file
+LeetCode/ThreeSum.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ThreeSum.cpp.i
+.PHONY : LeetCode/ThreeSum.cpp.i
+
+LeetCode/ThreeSum.s: LeetCode/ThreeSum.cpp.s
+
+.PHONY : LeetCode/ThreeSum.s
+
+# target to generate assembly for a file
+LeetCode/ThreeSum.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ThreeSum.cpp.s
+.PHONY : LeetCode/ThreeSum.cpp.s
+
+LeetCode/TwoSum.o: LeetCode/TwoSum.cpp.o
+
+.PHONY : LeetCode/TwoSum.o
+
+# target to build an object file
+LeetCode/TwoSum.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/TwoSum.cpp.o
+.PHONY : LeetCode/TwoSum.cpp.o
+
+LeetCode/TwoSum.i: LeetCode/TwoSum.cpp.i
+
+.PHONY : LeetCode/TwoSum.i
+
+# target to preprocess a source file
+LeetCode/TwoSum.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/TwoSum.cpp.i
+.PHONY : LeetCode/TwoSum.cpp.i
+
+LeetCode/TwoSum.s: LeetCode/TwoSum.cpp.s
+
+.PHONY : LeetCode/TwoSum.s
+
+# target to generate assembly for a file
+LeetCode/TwoSum.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/TwoSum.cpp.s
+.PHONY : LeetCode/TwoSum.cpp.s
+
+LeetCode/ValidSquare.o: LeetCode/ValidSquare.cpp.o
+
+.PHONY : LeetCode/ValidSquare.o
+
+# target to build an object file
+LeetCode/ValidSquare.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ValidSquare.cpp.o
+.PHONY : LeetCode/ValidSquare.cpp.o
+
+LeetCode/ValidSquare.i: LeetCode/ValidSquare.cpp.i
+
+.PHONY : LeetCode/ValidSquare.i
+
+# target to preprocess a source file
+LeetCode/ValidSquare.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ValidSquare.cpp.i
+.PHONY : LeetCode/ValidSquare.cpp.i
+
+LeetCode/ValidSquare.s: LeetCode/ValidSquare.cpp.s
+
+.PHONY : LeetCode/ValidSquare.s
+
+# target to generate assembly for a file
+LeetCode/ValidSquare.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ValidSquare.cpp.s
+.PHONY : LeetCode/ValidSquare.cpp.s
+
+LeetCode/ZigZagConversion.o: LeetCode/ZigZagConversion.cpp.o
+
+.PHONY : LeetCode/ZigZagConversion.o
+
+# target to build an object file
+LeetCode/ZigZagConversion.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ZigZagConversion.cpp.o
+.PHONY : LeetCode/ZigZagConversion.cpp.o
+
+LeetCode/ZigZagConversion.i: LeetCode/ZigZagConversion.cpp.i
+
+.PHONY : LeetCode/ZigZagConversion.i
+
+# target to preprocess a source file
+LeetCode/ZigZagConversion.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ZigZagConversion.cpp.i
+.PHONY : LeetCode/ZigZagConversion.cpp.i
+
+LeetCode/ZigZagConversion.s: LeetCode/ZigZagConversion.cpp.s
+
+.PHONY : LeetCode/ZigZagConversion.s
+
+# target to generate assembly for a file
+LeetCode/ZigZagConversion.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/LeetCode/ZigZagConversion.cpp.s
+.PHONY : LeetCode/ZigZagConversion.cpp.s
+
+Other/IslandSolution.o: Other/IslandSolution.cpp.o
+
+.PHONY : Other/IslandSolution.o
+
+# target to build an object file
+Other/IslandSolution.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/Other/IslandSolution.cpp.o
+.PHONY : Other/IslandSolution.cpp.o
+
+Other/IslandSolution.i: Other/IslandSolution.cpp.i
+
+.PHONY : Other/IslandSolution.i
+
+# target to preprocess a source file
+Other/IslandSolution.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/Other/IslandSolution.cpp.i
+.PHONY : Other/IslandSolution.cpp.i
+
+Other/IslandSolution.s: Other/IslandSolution.cpp.s
+
+.PHONY : Other/IslandSolution.s
+
+# target to generate assembly for a file
+Other/IslandSolution.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/Other/IslandSolution.cpp.s
+.PHONY : Other/IslandSolution.cpp.s
+
+Other/TwitterSolution.o: Other/TwitterSolution.cpp.o
+
+.PHONY : Other/TwitterSolution.o
+
+# target to build an object file
+Other/TwitterSolution.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/Other/TwitterSolution.cpp.o
+.PHONY : Other/TwitterSolution.cpp.o
+
+Other/TwitterSolution.i: Other/TwitterSolution.cpp.i
+
+.PHONY : Other/TwitterSolution.i
+
+# target to preprocess a source file
+Other/TwitterSolution.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/Other/TwitterSolution.cpp.i
+.PHONY : Other/TwitterSolution.cpp.i
+
+Other/TwitterSolution.s: Other/TwitterSolution.cpp.s
+
+.PHONY : Other/TwitterSolution.s
+
+# target to generate assembly for a file
+Other/TwitterSolution.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/Other/TwitterSolution.cpp.s
+.PHONY : Other/TwitterSolution.cpp.s
 
 main.o: main.cpp.o
 
@@ -129,7 +723,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +732,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +741,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +752,73 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cpptest"
+	@echo "... AlgoTests"
+	@echo "... HackerRank/AppleAndOrangeTrees.o"
+	@echo "... HackerRank/AppleAndOrangeTrees.i"
+	@echo "... HackerRank/AppleAndOrangeTrees.s"
+	@echo "... LeetCode/ContainerWithMostWater.o"
+	@echo "... LeetCode/ContainerWithMostWater.i"
+	@echo "... LeetCode/ContainerWithMostWater.s"
+	@echo "... LeetCode/FriendCricles.o"
+	@echo "... LeetCode/FriendCricles.i"
+	@echo "... LeetCode/FriendCricles.s"
+	@echo "... LeetCode/IntegerPalindrome.o"
+	@echo "... LeetCode/IntegerPalindrome.i"
+	@echo "... LeetCode/IntegerPalindrome.s"
+	@echo "... LeetCode/IntegerToRomanNum.o"
+	@echo "... LeetCode/IntegerToRomanNum.i"
+	@echo "... LeetCode/IntegerToRomanNum.s"
+	@echo "... LeetCode/IsSubsequence.o"
+	@echo "... LeetCode/IsSubsequence.i"
+	@echo "... LeetCode/IsSubsequence.s"
+	@echo "... LeetCode/LengthofLongestSubstringSolution.o"
+	@echo "... LeetCode/LengthofLongestSubstringSolution.i"
+	@echo "... LeetCode/LengthofLongestSubstringSolution.s"
+	@echo "... LeetCode/LongestCommonPrefixString.o"
+	@echo "... LeetCode/LongestCommonPrefixString.i"
+	@echo "... LeetCode/LongestCommonPrefixString.s"
+	@echo "... LeetCode/LongestUnivaluePath.o"
+	@echo "... LeetCode/LongestUnivaluePath.i"
+	@echo "... LeetCode/LongestUnivaluePath.s"
+	@echo "... LeetCode/MedianSortedArrays.o"
+	@echo "... LeetCode/MedianSortedArrays.i"
+	@echo "... LeetCode/MedianSortedArrays.s"
+	@echo "... LeetCode/MinRotatedSortedArr.o"
+	@echo "... LeetCode/MinRotatedSortedArr.i"
+	@echo "... LeetCode/MinRotatedSortedArr.s"
+	@echo "... LeetCode/PalindromeLinkedList.o"
+	@echo "... LeetCode/PalindromeLinkedList.i"
+	@echo "... LeetCode/PalindromeLinkedList.s"
+	@echo "... LeetCode/PascalsTriangle.o"
+	@echo "... LeetCode/PascalsTriangle.i"
+	@echo "... LeetCode/PascalsTriangle.s"
+	@echo "... LeetCode/PowerOfFour.o"
+	@echo "... LeetCode/PowerOfFour.i"
+	@echo "... LeetCode/PowerOfFour.s"
+	@echo "... LeetCode/ReverseInteger.o"
+	@echo "... LeetCode/ReverseInteger.i"
+	@echo "... LeetCode/ReverseInteger.s"
+	@echo "... LeetCode/ThirdMax.o"
+	@echo "... LeetCode/ThirdMax.i"
+	@echo "... LeetCode/ThirdMax.s"
+	@echo "... LeetCode/ThreeSum.o"
+	@echo "... LeetCode/ThreeSum.i"
+	@echo "... LeetCode/ThreeSum.s"
+	@echo "... LeetCode/TwoSum.o"
+	@echo "... LeetCode/TwoSum.i"
+	@echo "... LeetCode/TwoSum.s"
+	@echo "... LeetCode/ValidSquare.o"
+	@echo "... LeetCode/ValidSquare.i"
+	@echo "... LeetCode/ValidSquare.s"
+	@echo "... LeetCode/ZigZagConversion.o"
+	@echo "... LeetCode/ZigZagConversion.i"
+	@echo "... LeetCode/ZigZagConversion.s"
+	@echo "... Other/IslandSolution.o"
+	@echo "... Other/IslandSolution.i"
+	@echo "... Other/IslandSolution.s"
+	@echo "... Other/TwitterSolution.o"
+	@echo "... Other/TwitterSolution.i"
+	@echo "... Other/TwitterSolution.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

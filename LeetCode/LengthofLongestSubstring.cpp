@@ -10,7 +10,7 @@
 #include <iostream>
 using namespace std;
 
-class LengthofLongestSubstringSolution {
+class LengthofLongestSubstring {
 public:
     int lengthOfLongestSubstring(string s) {
         int length = s.length();

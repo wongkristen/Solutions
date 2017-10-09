@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /Users/kristenwong/Documents/college/3rdyr/AlgoTests
 CMAKE_BINARY_DIR = /Users/kristenwong/Documents/college/3rdyr/AlgoTests/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/cpptest.dir
+# Target rules for target CMakeFiles/AlgoTests.dir
 
 # All Build rule for target.
-CMakeFiles/cpptest.dir/all:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/depend
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristenwong/Documents/college/3rdyr/AlgoTests/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cpptest"
-.PHONY : CMakeFiles/cpptest.dir/all
+CMakeFiles/AlgoTests.dir/all:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/depend
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristenwong/Documents/college/3rdyr/AlgoTests/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target AlgoTests"
+.PHONY : CMakeFiles/AlgoTests.dir/all
 
 # Include target in all.
-all: CMakeFiles/cpptest.dir/all
+all: CMakeFiles/AlgoTests.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cpptest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristenwong/Documents/college/3rdyr/AlgoTests/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpptest.dir/all
+CMakeFiles/AlgoTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristenwong/Documents/college/3rdyr/AlgoTests/cmake-build-debug/CMakeFiles 24
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AlgoTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristenwong/Documents/college/3rdyr/AlgoTests/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/cpptest.dir/rule
+.PHONY : CMakeFiles/AlgoTests.dir/rule
 
 # Convenience name for target.
-cpptest: CMakeFiles/cpptest.dir/rule
+AlgoTests: CMakeFiles/AlgoTests.dir/rule
 
-.PHONY : cpptest
-
-# clean rule for target.
-CMakeFiles/cpptest.dir/clean:
-	$(MAKE) -f CMakeFiles/cpptest.dir/build.make CMakeFiles/cpptest.dir/clean
-.PHONY : CMakeFiles/cpptest.dir/clean
+.PHONY : AlgoTests
 
 # clean rule for target.
-clean: CMakeFiles/cpptest.dir/clean
+CMakeFiles/AlgoTests.dir/clean:
+	$(MAKE) -f CMakeFiles/AlgoTests.dir/build.make CMakeFiles/AlgoTests.dir/clean
+.PHONY : CMakeFiles/AlgoTests.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/AlgoTests.dir/clean
 
 .PHONY : clean
 

@@ -5,7 +5,7 @@
 #include <vector>
 using namespace std;
 
-class IslandSolution {
+class Island {
 public:
     int length, height;
     int numIslands(vector<vector<char>> grid){

@@ -10,7 +10,7 @@ using namespace std;
 // !!!!!! NOT DONE !!!!!!
 // !!!!!! NOT DONE !!!!!!
 
-class TwitterSolution {
+class Twitter {
 
 public:
     struct followArrayItem{
