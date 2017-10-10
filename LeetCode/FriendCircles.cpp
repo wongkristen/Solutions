@@ -28,7 +28,7 @@ public:
     int findCircleNum(vector<vector<int>>& M) {
         int friendCircles = 0;
         int length = M.size();
-        bool arr[length] = {false};
+        bool* arr = new bool[length] {false};
 
         for (int i = 0; i < length; i ++){
             if (arr[i] == 0){
