@@ -28,7 +28,6 @@
 #include "LeetCode/ThirdMax.cpp"
 #include "LeetCode/ThreeSum.cpp"
 #include "LeetCode/TwoSum.cpp"
-#include "LeetCode/ValidSquare.cpp"
 #include "LeetCode/ZigZagConversion.cpp"
 
 // ------ OTHER ------
