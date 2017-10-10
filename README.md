@@ -1,6 +1,8 @@
 # Solutions :octocat:
 `C++` solutions for online algorithm problems from LeetCode and HackerRank.
 
+<br />
+
 ## LeetCode
 *Questions are listed with their corresponding titles and problem numbers from LeetCode*
 
@@ -9,6 +11,8 @@
 Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
 
 Note: You may not slant the container and n is at least 2.
+
+<br />
 
 2. -[X] **2.** [Friend Circles](LeetCode/FriendCircles.cpp) [547]
  
@@ -41,14 +45,20 @@ Note:
 2. M[i][i] = 1 for all students.
 3. If M[i][j] = 1, then M[j][i] = 1.
 
+<br />
+
 3. -[X] **3.** [Palindrome Number](LeetCode/IntegerPalindrome.cpp) [9]
 
 Determine whether an integer is a palindrome. Do this without extra space.
+
+<br />
 
 4. -[X] **4.** [Integer to Roman Numeral](LeetCode/IntegerToRomanNum.cpp) [12]
 
 Given an integer, convert it to a roman numeral.
 Input is guaranteed to be within the range from 1 to 3999.
+
+<br />
 
 5. -[X] **5.** [Is Subsequence](LeetCode/IsSubsequence.cpp) [392]
 
@@ -70,6 +80,8 @@ s = "axc", t = "ahbgdc"
 
 Return `false`.
 
+<br />
+
 6. -[ ] **6.** [Longest Substring Without Repeating Characters](LeetCode/LengthofLongestSubstring.cpp) [3]
 
 Given a string, find the length of the longest substring without repeating characters.
@@ -82,9 +94,13 @@ Given "bbbbb", the answer is "b", with the length of 1.
 
 Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
+<br />
+
 7. -[X] **7.** [Longest Common Prefix](LeetCode/LongestCommonPrefixString.cpp) [14]
 
 Write a function to find the longest common prefix string amongst an array of strings.
+
+<br />
 
 8. -[X] **8.** [Longest Univalue Path](LeetCode/LongestUnivaluePath.cpp) [687]
 
@@ -122,6 +138,8 @@ Output:
 2
 ```
 
+<br />
+
 9. -[X] **9.** [Median of Two Sorted Arrays](LeetCode/MedianSortedArrays.cpp) [4]
 
 There are two sorted arrays nums1 and nums2 of size m and n respectively.
@@ -144,6 +162,8 @@ nums2 = [3, 4]
 The median is (2 + 3)/2 = 2.5
 ```
 
+<br />
+
 10. -[X] **10.** [Find Minimum in Rotated Sorted Array II](LeetCode/MinRotatedSortedArr.cpp) [154]
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
@@ -154,9 +174,13 @@ Find the minimum element.
 
 The array may contain duplicates.
 
+<br />
+
 11. -[X] **11.** [Palindrome Linked List](LeetCode/PalindromeLinkedList.cpp) [234]
 
 Given a singly linked list, determine if it is a palindrome.
+
+<br />
 
 12. -[X] **12.**  [Pascal's Triangle](LeetCode/PascalsTriangle.cpp) [118]
 
@@ -174,6 +198,9 @@ Return:
  [1,4,6,4,1]
 ]
 ```
+
+<br />
+
 13. -[X] **13.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
 
 Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
@@ -184,6 +211,8 @@ Given num = 16, return true. Given num = 5, return false.
 
 Follow up: Could you solve it without loops/recursion?
 
+<br />
+
 14. -[X] **14.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
 
 Reverse digits of an integer.
@@ -191,6 +220,8 @@ Reverse digits of an integer.
 Example1: x = 123, return 321
 
 Example2: x = -123, return -321
+
+<br />
 
 15. -[ ] **15.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
 
@@ -218,6 +249,8 @@ Output: 1
 Explanation: Note that the third maximum here means the third maximum distinct number.
 Both numbers with value 2 are both considered as second maximum.
 
+<br />
+
 16. -[X] **16.** [3Sum](LeetCode/ThreeSum.cpp) [15]
 
 Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
@@ -231,6 +264,8 @@ A solution set is:
   [-1, 0, 1],
   [-1, -1, 2]
 ]
+
+<br />
 
 17. -[X] **17.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
 
@@ -248,8 +283,12 @@ string convert(string text, int nRows);
 ```
 `convert("PAYPALISHIRING", 3)` should return `"PAHNAPLSIIGYIR"`.
 
+<br />
+
 ## Hacker Rank
 1. -[X] **1.** [Apple and Orange](HackerRank/AppleAndOrangeTrees.cpp)
+
+<br />
 
 ## Other
 1. -[ ] **1.** [Islands](Other/Island.cpp)
