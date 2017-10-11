@@ -25,10 +25,12 @@
 #include "LeetCode/PalindromeLinkedList.cpp"
 #include "LeetCode/PascalsTriangle.cpp"
 #include "LeetCode/PowerOfFour.cpp"
+#include "LeetCode/RemoveNthFromEndLinkedList.cpp"
 #include "LeetCode/ReverseInteger.cpp"
 #include "LeetCode/ThirdMax.cpp"
 #include "LeetCode/ThreeSum.cpp"
 #include "LeetCode/TwoSum.cpp"
+#include "LeetCode/ValidParentheses.cpp"
 #include "LeetCode/ZigZagConversion.cpp"
 
 // ------ OTHER ------

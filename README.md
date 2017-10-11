@@ -96,13 +96,24 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
 
 <br />
 
-7. -[X] **7.** [Longest Common Prefix](LeetCode/LongestCommonPrefixString.cpp) [14]
+7. -[X] **7.** [Letter Combinations of a Phone Number](LeetCode/LetterCombosofPhoneNum.cpp) [17]
+
+Given a digit string, return all possible letter combinations that the number could represent.
+
+```
+Input:Digit string "23"
+Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+```
+
+<br />
+
+8. -[X] **8.** [Longest Common Prefix](LeetCode/LongestCommonPrefixString.cpp) [14]
 
 Write a function to find the longest common prefix string amongst an array of strings.
 
 <br />
 
-8. -[X] **8.** [Longest Univalue Path](LeetCode/LongestUnivaluePath.cpp) [687]
+9. -[X] **9.** [Longest Univalue Path](LeetCode/LongestUnivaluePath.cpp) [687]
 
 Given a binary tree, find the length of the longest path where each node in the path has the same value. This path may or may not pass through the root.
 
@@ -140,7 +151,7 @@ Output:
 
 <br />
 
-9. -[X] **9.** [Median of Two Sorted Arrays](LeetCode/MedianSortedArrays.cpp) [4]
+10. -[X] **10.** [Median of Two Sorted Arrays](LeetCode/MedianSortedArrays.cpp) [4]
 
 There are two sorted arrays nums1 and nums2 of size m and n respectively.
 
@@ -164,7 +175,7 @@ The median is (2 + 3)/2 = 2.5
 
 <br />
 
-10. -[X] **10.** [Find Minimum in Rotated Sorted Array II](LeetCode/MinRotatedSortedArr.cpp) [154]
+11. -[X] **11.** [Find Minimum in Rotated Sorted Array II](LeetCode/MinRotatedSortedArr.cpp) [154]
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
@@ -176,13 +187,13 @@ The array may contain duplicates.
 
 <br />
 
-11. -[X] **11.** [Palindrome Linked List](LeetCode/PalindromeLinkedList.cpp) [234]
+12. -[X] **12.** [Palindrome Linked List](LeetCode/PalindromeLinkedList.cpp) [234]
 
 Given a singly linked list, determine if it is a palindrome.
 
 <br />
 
-12. -[X] **12.**  [Pascal's Triangle](LeetCode/PascalsTriangle.cpp) [118]
+13. -[X] **13.**  [Pascal's Triangle](LeetCode/PascalsTriangle.cpp) [118]
 
 Given numRows, generate the first numRows of Pascal's triangle.
 
@@ -201,7 +212,7 @@ Return:
 
 <br />
 
-13. -[X] **13.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
+14. -[X] **14.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
 
 Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
 
@@ -213,7 +224,24 @@ Follow up: Could you solve it without loops/recursion?
 
 <br />
 
-14. -[X] **14.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
+15. -[X] **15.** [Remove Nth Node From End of List](LeetCode/RemoveNthFromEndLinkedList.cpp) [19]
+
+Given a linked list, remove the nth node from the end of list and return its head.
+
+For example,
+```
+   Given linked list: 1->2->3->4->5, and n = 2.
+
+   After removing the second node from the end, the linked list becomes 1->2->3->5.
+   ```
+**Note:**
+
+Given n will always be valid.
+Try to do this in one pass.
+
+<br />
+
+16. -[X] **16.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
 
 Reverse digits of an integer.
 
@@ -223,7 +251,7 @@ Example2: x = -123, return -321
 
 <br />
 
-15. -[ ] **15.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
+17. -[ ] **17.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
 
 Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
 
@@ -251,7 +279,7 @@ Both numbers with value 2 are both considered as second maximum.
 
 <br />
 
-16. -[X] **16.** [3Sum](LeetCode/ThreeSum.cpp) [15]
+18. -[X] **18.** [3Sum](LeetCode/ThreeSum.cpp) [15]
 
 Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
 
@@ -267,7 +295,15 @@ A solution set is:
 
 <br />
 
-17. -[X] **17.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
+19. -[X] **19.** [Valid Parentheses](LeetCode/ValidParentheses.cpp) [20]
+
+Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+
+The brackets must close in the correct order, `"()"` and `"()[]{}"` are all valid but `"(]"` and `"([)]"` are not.
+
+<br />
+
+20. -[X] **20.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
 
 The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
