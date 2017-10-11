@@ -175,7 +175,13 @@ The median is (2 + 3)/2 = 2.5
 
 <br />
 
-11. -[X] **11.** [Find Minimum in Rotated Sorted Array II](LeetCode/MinRotatedSortedArr.cpp) [154]
+11. -[X] **11.** [Merge Two Sorted Lists](LeetCode/MergeTwoSortedLists.cpp) [21]
+
+Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+
+<br />
+
+12. -[X] **12.** [Find Minimum in Rotated Sorted Array II](LeetCode/MinRotatedSortedArr.cpp) [154]
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
@@ -187,13 +193,13 @@ The array may contain duplicates.
 
 <br />
 
-12. -[X] **12.** [Palindrome Linked List](LeetCode/PalindromeLinkedList.cpp) [234]
+13. -[X] **13.** [Palindrome Linked List](LeetCode/PalindromeLinkedList.cpp) [234]
 
 Given a singly linked list, determine if it is a palindrome.
 
 <br />
 
-13. -[X] **13.**  [Pascal's Triangle](LeetCode/PascalsTriangle.cpp) [118]
+14. -[X] **14.**  [Pascal's Triangle](LeetCode/PascalsTriangle.cpp) [118]
 
 Given numRows, generate the first numRows of Pascal's triangle.
 
@@ -212,7 +218,7 @@ Return:
 
 <br />
 
-14. -[X] **14.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
+15. -[X] **15.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
 
 Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
 
@@ -224,7 +230,7 @@ Follow up: Could you solve it without loops/recursion?
 
 <br />
 
-15. -[X] **15.** [Remove Nth Node From End of List](LeetCode/RemoveNthFromEndLinkedList.cpp) [19]
+16. -[X] **16.** [Remove Nth Node From End of List](LeetCode/RemoveNthFromEndLinkedList.cpp) [19]
 
 Given a linked list, remove the nth node from the end of list and return its head.
 
@@ -241,7 +247,7 @@ Try to do this in one pass.
 
 <br />
 
-16. -[X] **16.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
+17. -[X] **17.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
 
 Reverse digits of an integer.
 
@@ -251,7 +257,7 @@ Example2: x = -123, return -321
 
 <br />
 
-17. -[ ] **17.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
+18. -[ ] **18.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
 
 Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
 
@@ -279,7 +285,7 @@ Both numbers with value 2 are both considered as second maximum.
 
 <br />
 
-18. -[X] **18.** [3Sum](LeetCode/ThreeSum.cpp) [15]
+19. -[X] **19.** [3Sum](LeetCode/ThreeSum.cpp) [15]
 
 Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
 
@@ -295,7 +301,19 @@ A solution set is:
 
 <br />
 
-19. -[X] **19.** [Valid Parentheses](LeetCode/ValidParentheses.cpp) [20]
+20. -[X] **20.** [3Sum Closest](LeetCode/ThreeSumClosest.cpp) [16]
+
+Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
+
+```
+For example, given array S = {-1 2 1 -4}, and target = 1.
+
+The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+```
+
+<br />
+
+20. -[X] **20.** [Valid Parentheses](LeetCode/ValidParentheses.cpp) [20]
 
 Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
@@ -303,7 +321,7 @@ The brackets must close in the correct order, `"()"` and `"()[]{}"` are all vali
 
 <br />
 
-20. -[X] **20.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
+21. -[X] **21.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
 
 The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
