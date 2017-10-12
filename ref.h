@@ -13,6 +13,7 @@
 // ------ LEET CODE ------
 #include "LeetCode/ContainerWithMostWater.cpp"
 #include "LeetCode/FriendCircles.cpp"
+#include "LeetCode/GenerateParentheses.cpp"
 #include "LeetCode/IntegerPalindrome.cpp"
 #include "LeetCode/IntegerToRomanNum.cpp"
 #include "LeetCode/IsSubsequence.cpp"
