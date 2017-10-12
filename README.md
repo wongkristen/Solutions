@@ -235,7 +235,23 @@ Return:
 
 <br />
 
-16. -[X] **16.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
+16. -[X] **16.** [Plus One](LeetCode/PlusOne.cpp) [66]
+
+Given a non-negative integer represented as a **non-empty** array of digits, plus one to the integer.
+
+You may assume the integer do not contain any leading zero, except the number 0 itself.
+
+The digits are stored such that the most significant digit is at the head of the list.
+
+<br />
+
+17. -[X] **17.** [Pow(x, n)](LeetCode/Power.cpp) [50] 
+
+Implement pow(x, n).
+
+<br />
+
+18. -[X] **18.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
 
 Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
 
@@ -247,7 +263,7 @@ Follow up: Could you solve it without loops/recursion?
 
 <br />
 
-17. -[X] **17.** [Remove Nth Node From End of List](LeetCode/RemoveNthFromEndLinkedList.cpp) [19]
+19. -[X] **19.** [Remove Nth Node From End of List](LeetCode/RemoveNthFromEndLinkedList.cpp) [19]
 
 Given a linked list, remove the nth node from the end of list and return its head.
 
@@ -264,7 +280,7 @@ Try to do this in one pass.
 
 <br />
 
-18. -[X] **18.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
+20. -[X] **20.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
 
 Reverse digits of an integer.
 
@@ -274,7 +290,7 @@ Example2: x = -123, return -321
 
 <br />
 
-19. -[ ] **19.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
+21. -[ ] **21.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
 
 Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
 
@@ -302,7 +318,7 @@ Both numbers with value 2 are both considered as second maximum.
 
 <br />
 
-20. -[X] **20.** [3Sum](LeetCode/ThreeSum.cpp) [15]
+22. -[X] **22.** [3Sum](LeetCode/ThreeSum.cpp) [15]
 
 Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
 
@@ -318,7 +334,7 @@ A solution set is:
 
 <br />
 
-21. -[X] **21.** [3Sum Closest](LeetCode/ThreeSumClosest.cpp) [16]
+23. -[X] **23.** [3Sum Closest](LeetCode/ThreeSumClosest.cpp) [16]
 
 Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
 
@@ -330,7 +346,35 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 <br />
 
-22. -[X] **22.** [Valid Parentheses](LeetCode/ValidParentheses.cpp) [20]
+24. -[X] **24.** [Validate Binary Search Tree](LeetCode/ValidBST.cpp) [98]
+
+Given a binary tree, determine if it is a valid binary search tree (BST).
+
+Assume a BST is defined as follows:
+
+* The left subtree of a node contains only nodes with keys less than the node's key.
+* The right subtree of a node contains only nodes with keys greater than the node's key.
+* Both the left and right subtrees must also be binary search trees.
+
+**Example 1:**
+```
+    2
+   / \
+  1   3
+  ```
+  Binary tree `[2,1,3]`, return true.
+  
+**Example 2:**
+```
+    1
+   / \
+  2   3
+```
+Binary tree `[1,2,3]`, return false.
+
+<br />
+
+25. -[X] **25.** [Valid Parentheses](LeetCode/ValidParentheses.cpp) [20]
 
 Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
@@ -338,7 +382,7 @@ The brackets must close in the correct order, `"()"` and `"()[]{}"` are all vali
 
 <br />
 
-23. -[X] **23.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
+26. -[X] **26.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
 
 The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 

@@ -26,6 +26,8 @@
 #include "LeetCode/MinRotatedSortedArr.cpp"
 #include "LeetCode/PalindromeLinkedList.cpp"
 #include "LeetCode/PascalsTriangle.cpp"
+#include "LeetCode/PlusOne.cpp"
+#include "LeetCode/Power.cpp"
 #include "LeetCode/PowerOfFour.cpp"
 #include "LeetCode/RemoveNthFromEndLinkedList.cpp"
 #include "LeetCode/ReverseInteger.cpp"
@@ -33,6 +35,7 @@
 #include "LeetCode/ThreeSum.cpp"
 #include "LeetCode/ThreeSumClosest.cpp"
 #include "LeetCode/TwoSum.cpp"
+#include "LeetCode/ValidBST.cpp"
 #include "LeetCode/ValidParentheses.cpp"
 #include "LeetCode/ZigZagConversion.cpp"
 
