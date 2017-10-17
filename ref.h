@@ -12,6 +12,7 @@
 
 // ------ LEET CODE ------
 #include "LeetCode/ContainerWithMostWater.cpp"
+#include "LeetCode/FirstMissingPositive.cpp"
 #include "LeetCode/FriendCircles.cpp"
 #include "LeetCode/GenerateParentheses.cpp"
 #include "LeetCode/IntegerPalindrome.cpp"
@@ -31,12 +32,14 @@
 #include "LeetCode/PowerOfFour.cpp"
 #include "LeetCode/RemoveNthFromEndLinkedList.cpp"
 #include "LeetCode/ReverseInteger.cpp"
+#include "LeetCode/SetMatrixZeroes.cpp"
 #include "LeetCode/ThirdMax.cpp"
 #include "LeetCode/ThreeSum.cpp"
 #include "LeetCode/ThreeSumClosest.cpp"
 #include "LeetCode/TwoSum.cpp"
 #include "LeetCode/ValidBST.cpp"
 #include "LeetCode/ValidParentheses.cpp"
+#include "LeetCode/WordSearch.cpp"
 #include "LeetCode/ZigZagConversion.cpp"
 
 // ------ OTHER ------
