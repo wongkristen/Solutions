@@ -11,6 +11,7 @@
 #include "HackerRank/AppleAndOrangeTrees.cpp"
 
 // ------ LEET CODE ------
+#include "LeetCode/AddTwoNumbers.cpp"
 #include "LeetCode/ContainerWithMostWater.cpp"
 #include "LeetCode/FirstMissingPositive.cpp"
 #include "LeetCode/FriendCircles.cpp"
@@ -18,6 +19,7 @@
 #include "LeetCode/IntegerPalindrome.cpp"
 #include "LeetCode/IntegerToRomanNum.cpp"
 #include "LeetCode/IsSubsequence.cpp"
+#include "LeetCode/JumpGame.cpp"
 #include "LeetCode/LengthofLongestSubstring.cpp"
 #include "LeetCode/LetterCombosofPhoneNum.cpp"
 #include "LeetCode/LongestCommonPrefixString.cpp"
@@ -25,6 +27,7 @@
 #include "LeetCode/MedianSortedArrays.cpp"
 #include "LeetCode/MergeTwoSortedLists.cpp"
 #include "LeetCode/MinRotatedSortedArr.cpp"
+#include "LeetCode/MoveZeroes.cpp"
 #include "LeetCode/PalindromeLinkedList.cpp"
 #include "LeetCode/PascalsTriangle.cpp"
 #include "LeetCode/PlusOne.cpp"

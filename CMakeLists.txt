@@ -32,7 +32,7 @@ set(SOURCE_FILES main.cpp
         LeetCode/MergeTwoSortedLists.cpp
         LeetCode/ThreeSumClosest.cpp
         LeetCode/GenerateParentheses.cpp
-        LeetCode/ValidBST.cpp LeetCode/PlusOne.cpp LeetCode/Power.cpp LeetCode/WordSearch.cpp LeetCode/FirstMissingPositive.cpp LeetCode/SetMatrixZeroes.cpp)
+        LeetCode/ValidBST.cpp LeetCode/PlusOne.cpp LeetCode/Power.cpp LeetCode/WordSearch.cpp LeetCode/FirstMissingPositive.cpp LeetCode/SetMatrixZeroes.cpp LeetCode/AddTwoNumbers.cpp LeetCode/JumpGame.cpp LeetCode/MoveZeroes.cpp)
 
 add_executable(AlgoTests ${SOURCE_FILES})
 
