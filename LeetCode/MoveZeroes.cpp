@@ -6,6 +6,9 @@
 #include <vector>
 using namespace std;
 
+// Time Complexity: O(n)
+// Space complexity: constant
+
 class MoveZeroesSolution {
 public:
     void moveZeroes(vector<int>& nums) {

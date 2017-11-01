@@ -18,7 +18,17 @@ Output: 7 -> 0 -> 8
 
 <br/>
 
-2. -[X] **2.** [Container With Most Water](LeetCode/ContainerWithMostWater.cpp) [11]
+2. -[X] **2.** [Climbing Stairs](LeetCode/ClimbingStairs.cpp) [70]
+
+You are climbing a stair case. It takes n steps to reach to the top.
+
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+**Note:** Given n will be a positive integer.
+
+<br/>
+
+3. -[X] **3.** [Container With Most Water](LeetCode/ContainerWithMostWater.cpp) [11]
 
 Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
 
@@ -26,7 +36,7 @@ Note: You may not slant the container and n is at least 2.
 
 <br />
 
-3. -[X] **3.** [First Missing Positive](LeetCode/FirstMissingPositive.cpp) [41]
+4. -[X] **4.** [First Missing Positive](LeetCode/FirstMissingPositive.cpp) [41]
 
 Given an unsorted integer array, find the first missing positive integer.
 
@@ -38,7 +48,7 @@ Your algorithm should run in O(n) time and uses constant space.
 
 <br/>
 
-4. -[X] **4.** [Friend Circles](LeetCode/FriendCircles.cpp) [547]
+5. -[X] **5.** [Friend Circles](LeetCode/FriendCircles.cpp) [547]
  
 There are N students in a class. Some of them are friends, while some are not. Their friendship is transitive in nature. For example, if A is a direct friend of B, and B is a direct friend of C, then A is an indirect friend of C. And we defined a friend circle is a group of students who are direct or indirect friends.
  
@@ -71,7 +81,7 @@ Note:
 
 <br />
 
-5. -[X] **5.** [Generate Parentheses](LeetCode/GenerateParentheses.cpp) [22]
+6. -[X] **6.** [Generate Parentheses](LeetCode/GenerateParentheses.cpp) [22]
 
 Given *n* pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
@@ -88,20 +98,20 @@ For example, given *n = 3*, a solution set is:
 
 <br />
 
-6. -[X] **6.** [Palindrome Number](LeetCode/IntegerPalindrome.cpp) [9]
+7. -[X] **7.** [Palindrome Number](LeetCode/IntegerPalindrome.cpp) [9]
 
 Determine whether an integer is a palindrome. Do this without extra space.
 
 <br />
 
-7. -[X] **7.** [Integer to Roman Numeral](LeetCode/IntegerToRomanNum.cpp) [12]
+8. -[X] **8.** [Integer to Roman Numeral](LeetCode/IntegerToRomanNum.cpp) [12]
 
 Given an integer, convert it to a roman numeral.
 Input is guaranteed to be within the range from 1 to 3999.
 
 <br />
 
-8. -[X] **8.** [Is Subsequence](LeetCode/IsSubsequence.cpp) [392]
+9. -[X] **9.** [Is Subsequence](LeetCode/IsSubsequence.cpp) [392]
 
 Given a string **s** and a string **t**, check if **s** is subsequence of **t**.
 
@@ -123,7 +133,7 @@ Return `false`.
 
 <br />
 
-9. -[X] **9.** [Jump Game](LeetCode/JumpGame.cpp) [55]
+10. -[X] **10.** [Jump Game](LeetCode/JumpGame.cpp) [55]
 
 Given an array of non-negative integers, you are initially positioned at the first index of the array.
 
@@ -138,7 +148,7 @@ A = `[3,2,1,0,4]`, return `false`.
 
 <br/>
 
-10. -[ ] **10.** [Longest Substring Without Repeating Characters](LeetCode/LengthofLongestSubstring.cpp) [3]
+11. -[ ] **11.** [Longest Substring Without Repeating Characters](LeetCode/LengthofLongestSubstring.cpp) [3]
 
 Given a string, find the length of the longest substring without repeating characters.
  
@@ -152,7 +162,7 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
 
 <br />
 
-11. -[X] **11.** [Letter Combinations of a Phone Number](LeetCode/LetterCombosofPhoneNum.cpp) [17]
+12. -[X] **12.** [Letter Combinations of a Phone Number](LeetCode/LetterCombosofPhoneNum.cpp) [17]
 
 Given a digit string, return all possible letter combinations that the number could represent.
 
@@ -163,13 +173,36 @@ Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 
 <br />
 
-12. -[X] **12.** [Longest Common Prefix](LeetCode/LongestCommonPrefixString.cpp) [14]
+13. -[X] **13.** [Longest Common Prefix](LeetCode/LongestCommonPrefixString.cpp) [14]
 
 Write a function to find the longest common prefix string amongst an array of strings.
 
 <br />
 
-13. -[X] **13.** [Longest Univalue Path](LeetCode/LongestUnivaluePath.cpp) [687]
+14. -[X] **14.** [Longest Continuous Increasing Subsequence](LeetCode/LongestContIncSubsequence.cpp) [674]
+
+Given an unsorted array of integers, find the length of longest **continuous** increasing subsequence.
+
+**Example 1:**
+```
+Input: [1,3,5,4,7]
+Output: 3
+Explanation: The longest continuous increasing subsequence is [1,3,5], its length is 3. 
+Even though [1,3,5,7] is also an increasing subsequence, it's not a continuous one where 5 and 7 are separated by 4. 
+```
+
+**Example 2:**
+```
+Input: [2,2,2,2,2]
+Output: 1
+Explanation: The longest continuous increasing subsequence is [2], its length is 1. 
+```
+
+**Note:** Length of the array will not exceed 10,000.
+
+<br/>
+
+15. -[X] **15.** [Longest Univalue Path](LeetCode/LongestUnivaluePath.cpp) [687]
 
 Given a binary tree, find the length of the longest path where each node in the path has the same value. This path may or may not pass through the root.
 
@@ -207,7 +240,7 @@ Output:
 
 <br />
 
-14. -[X] **14.** [Median of Two Sorted Arrays](LeetCode/MedianSortedArrays.cpp) [4]
+16. -[X] **16.** [Median of Two Sorted Arrays](LeetCode/MedianSortedArrays.cpp) [4]
 
 There are two sorted arrays nums1 and nums2 of size m and n respectively.
 
@@ -231,13 +264,13 @@ The median is (2 + 3)/2 = 2.5
 
 <br />
 
-15. -[X] **15.** [Merge Two Sorted Lists](LeetCode/MergeTwoSortedLists.cpp) [21]
+17. -[X] **17.** [Merge Two Sorted Lists](LeetCode/MergeTwoSortedLists.cpp) [21]
 
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
 <br />
 
-16. -[X] **16.** [Find Minimum in Rotated Sorted Array II](LeetCode/MinRotatedSortedArr.cpp) [154]
+18. -[X] **18.** [Find Minimum in Rotated Sorted Array II](LeetCode/MinRotatedSortedArr.cpp) [154]
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
@@ -250,7 +283,7 @@ The array may contain duplicates.
 <br />
 
 
-17. -[X] **17.** [Move Zeroes](LeetCode/MoveZeroes.cpp) [283]
+19. -[X] **19.** [Move Zeroes](LeetCode/MoveZeroes.cpp) [283]
 
 Given an array `nums`, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
@@ -263,13 +296,26 @@ Minimize the total number of operations.
 <br/>
 
 
-18. -[X] **18.** [Palindrome Linked List](LeetCode/PalindromeLinkedList.cpp) [234]
+20. -[X] **20.** [Multiply Strings](LeetCode/MultiplyStrings.cpp) [43]
+
+Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`.
+
+**Note:**
+
+1. The length of both `num1` and `num2` is < 110. <br/>
+2. Both `num1` and `num2` contains only digits `0-9`.<br/>
+3. Both `num1` and `num2` does not contain any leading zero. <br/>
+4. You must not use any built-in BigInteger library or convert the inputs to integer directly. <br/>
+
+<br/>
+
+21. -[X] **21.** [Palindrome Linked List](LeetCode/PalindromeLinkedList.cpp) [234]
 
 Given a singly linked list, determine if it is a palindrome.
 
 <br />
 
-19. -[X] **19.**  [Pascal's Triangle](LeetCode/PascalsTriangle.cpp) [118]
+22. -[X] **22.**  [Pascal's Triangle](LeetCode/PascalsTriangle.cpp) [118]
 
 Given numRows, generate the first numRows of Pascal's triangle.
 
@@ -288,7 +334,7 @@ Return:
 
 <br />
 
-20. -[X] **20.** [Plus One](LeetCode/PlusOne.cpp) [66]
+23. -[X] **23.** [Plus One](LeetCode/PlusOne.cpp) [66]
 
 Given a non-negative integer represented as a **non-empty** array of digits, plus one to the integer.
 
@@ -298,13 +344,13 @@ The digits are stored such that the most significant digit is at the head of the
 
 <br />
 
-21. -[X] **21.** [Pow(x, n)](LeetCode/Power.cpp) [50] 
+24. -[X] **24.** [Pow(x, n)](LeetCode/Power.cpp) [50] 
 
 Implement `pow(x, n)`.
 
 <br />
 
-22. -[X] **22.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
+25. -[X] **25.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
 
 Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
 
@@ -316,7 +362,7 @@ Follow up: Could you solve it without loops/recursion?
 
 <br />
 
-23. -[X] **23.** [Remove Nth Node From End of List](LeetCode/RemoveNthFromEndLinkedList.cpp) [19]
+26. -[X] **26.** [Remove Nth Node From End of List](LeetCode/RemoveNthFromEndLinkedList.cpp) [19]
 
 Given a linked list, remove the nth node from the end of list and return its head.
 
@@ -333,7 +379,7 @@ Try to do this in one pass.
 
 <br />
 
-24. -[X] **24.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
+27. -[X] **27.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
 
 Reverse digits of an integer.
 
@@ -343,13 +389,13 @@ Example2: x = -123, return -321
 
 <br />
 
-25. -[X] **25.** [Set Matrix Zeroes](LeetCode/SetMatrixZeroes.cpp) [73]
+28. -[X] **28.** [Set Matrix Zeroes](LeetCode/SetMatrixZeroes.cpp) [73]
 
 Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in place.
 
 <br/>
 
-26. -[ ] **26.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
+29. -[ ] **29.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
 
 Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
 
@@ -377,7 +423,7 @@ Both numbers with value 2 are both considered as second maximum.
 
 <br />
 
-27. -[X] **27.** [3Sum](LeetCode/ThreeSum.cpp) [15]
+30. -[X] **30.** [3Sum](LeetCode/ThreeSum.cpp) [15]
 
 Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
 
@@ -393,7 +439,7 @@ A solution set is:
 
 <br />
 
-28. -[X] **28.** [3Sum Closest](LeetCode/ThreeSumClosest.cpp) [16]
+31. -[X] **31.** [3Sum Closest](LeetCode/ThreeSumClosest.cpp) [16]
 
 Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
 
@@ -405,7 +451,7 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 <br />
 
-29. -[X] **29.** [Validate Binary Search Tree](LeetCode/ValidBST.cpp) [98]
+32. -[X] **32.** [Validate Binary Search Tree](LeetCode/ValidBST.cpp) [98]
 
 Given a binary tree, determine if it is a valid binary search tree (BST).
 
@@ -433,7 +479,7 @@ Binary tree `[1,2,3]`, return false.
 
 <br />
 
-30. -[X] **30.** [Valid Parentheses](LeetCode/ValidParentheses.cpp) [20]
+33. -[X] **33.** [Valid Parentheses](LeetCode/ValidParentheses.cpp) [20]
 
 Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
@@ -441,7 +487,7 @@ The brackets must close in the correct order, `"()"` and `"()[]{}"` are all vali
 
 <br />
 
-31. -[X] **31.** [Word Search](LeetCode/WordSearch.cpp) [79]
+34. -[X] **34.** [Word Search](LeetCode/WordSearch.cpp) [79]
 
 Given a 2D board and a word, find if the word exists in the grid.
 
@@ -463,7 +509,7 @@ word = `"ABCCED"`, -> returns `true`, <br/>
 word = `"SEE"`, -> returns `true`, <br/>
 word = `"ABCB"`, -> returns `false`.
 
-32. -[X] **32.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
+35. -[X] **35.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
 
 The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
