@@ -334,7 +334,30 @@ Return:
 
 <br />
 
-23. -[X] **23.** [Plus One](LeetCode/PlusOne.cpp) [66]
+23. -[X] **23.** [Permutations in a String](LeetCode/PermutationsInAString.cpp) [567]
+
+Given two strings **s1** and **s2**, write a function to return true if **s2** contains the permutation of **s1**. In other words, one of the first string's permutations is the **substring** of the second string.
+
+**Example 1:**
+```
+Input: s1 = "ab" s2 = "eidbaooo"
+Output: True
+```
+Explanation: s2 contains one permutation of s1 ("ba").
+
+**Example 2:**
+```
+Input:s1= "ab" s2 = "eidboaoo"
+Output: False
+```
+
+**Note:**
+The input strings only contain lower case letters.
+The length of both given strings is in range [1, 10,000].
+
+<br/>
+
+24. -[X] **24.** [Plus One](LeetCode/PlusOne.cpp) [66]
 
 Given a non-negative integer represented as a **non-empty** array of digits, plus one to the integer.
 
@@ -344,13 +367,13 @@ The digits are stored such that the most significant digit is at the head of the
 
 <br />
 
-24. -[X] **24.** [Pow(x, n)](LeetCode/Power.cpp) [50] 
+25. -[X] **25.** [Pow(x, n)](LeetCode/Power.cpp) [50] 
 
 Implement `pow(x, n)`.
 
 <br />
 
-25. -[X] **25.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
+26. -[X] **26.** [Power of Four](LeetCode/PowerOfFour.cpp) [342]
 
 Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
 
@@ -362,7 +385,23 @@ Follow up: Could you solve it without loops/recursion?
 
 <br />
 
-26. -[X] **26.** [Remove Nth Node From End of List](LeetCode/RemoveNthFromEndLinkedList.cpp) [19]
+27. -[X] **27.** [Removed Duplicates From Sorted Array](LeetCode/RemoveDupSortedArr.cpp) [26]
+
+Given a sorted array, remove the duplicates in-place such that each element appear only once and return the new length.
+
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+**Example:**
+```
+Given nums = [1,1,2],
+
+Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively.
+It doesn't matter what you leave beyond the new length.
+```
+
+<br/>
+
+28. -[X] **28.** [Remove Nth Node From End of List](LeetCode/RemoveNthFromEndLinkedList.cpp) [19]
 
 Given a linked list, remove the nth node from the end of list and return its head.
 
@@ -379,7 +418,7 @@ Try to do this in one pass.
 
 <br />
 
-27. -[X] **27.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
+29. -[X] **29.** [Reverse Integer](LeetCode/ReverseInteger.cpp) [7]
 
 Reverse digits of an integer.
 
@@ -389,13 +428,27 @@ Example2: x = -123, return -321
 
 <br />
 
-28. -[X] **28.** [Set Matrix Zeroes](LeetCode/SetMatrixZeroes.cpp) [73]
+30. -[X] **30.** [Searchfor a Range](LeetCode/SearchForRange.cpp) [34]
+
+Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
+
+Your algorithm's runtime complexity must be in the order of *O(log n)*.
+
+If the target is not found in the array, return `[-1, -1]`.
+
+For example, <br/>
+Given `[5, 7, 7, 8, 8, 10]` and target value 8,
+return `[3, 4]`.
+
+<br/>
+
+31. -[X] **31.** [Set Matrix Zeroes](LeetCode/SetMatrixZeroes.cpp) [73]
 
 Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in place.
 
 <br/>
 
-29. -[ ] **29.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
+32. -[ ] **32.** [Third Maximum Number](LeetCode/ThirdMax.cpp) [414]
 
 Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
 
@@ -423,7 +476,7 @@ Both numbers with value 2 are both considered as second maximum.
 
 <br />
 
-30. -[X] **30.** [3Sum](LeetCode/ThreeSum.cpp) [15]
+33. -[X] **33.** [3Sum](LeetCode/ThreeSum.cpp) [15]
 
 Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
 
@@ -439,7 +492,7 @@ A solution set is:
 
 <br />
 
-31. -[X] **31.** [3Sum Closest](LeetCode/ThreeSumClosest.cpp) [16]
+34. -[X] **34.** [3Sum Closest](LeetCode/ThreeSumClosest.cpp) [16]
 
 Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
 
@@ -451,7 +504,7 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 <br />
 
-32. -[X] **32.** [Validate Binary Search Tree](LeetCode/ValidBST.cpp) [98]
+35. -[X] **35.** [Validate Binary Search Tree](LeetCode/ValidBST.cpp) [98]
 
 Given a binary tree, determine if it is a valid binary search tree (BST).
 
@@ -479,7 +532,7 @@ Binary tree `[1,2,3]`, return false.
 
 <br />
 
-33. -[X] **33.** [Valid Parentheses](LeetCode/ValidParentheses.cpp) [20]
+36. -[X] **36.** [Valid Parentheses](LeetCode/ValidParentheses.cpp) [20]
 
 Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
@@ -487,7 +540,7 @@ The brackets must close in the correct order, `"()"` and `"()[]{}"` are all vali
 
 <br />
 
-34. -[X] **34.** [Word Search](LeetCode/WordSearch.cpp) [79]
+37. -[X] **37.** [Word Search](LeetCode/WordSearch.cpp) [79]
 
 Given a 2D board and a word, find if the word exists in the grid.
 
@@ -509,7 +562,7 @@ word = `"ABCCED"`, -> returns `true`, <br/>
 word = `"SEE"`, -> returns `true`, <br/>
 word = `"ABCB"`, -> returns `false`.
 
-35. -[X] **35.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
+38. -[X] **38.** [ZigZag Conversion](LeetCode/ZigZagConversion.cpp) [6]
 
 The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
