@@ -43,7 +43,7 @@ set(SOURCE_FILES main.cpp
         LeetCode/MoveZeroes.cpp
         LeetCode/LongestContIncSubsequence.cpp
         LeetCode/MultiplyStrings.cpp
-        LeetCode/ClimbingStairs.cpp LeetCode/InorderTreeTraversalIterative.cpp LeetCode/PermutationsInAString.cpp LeetCode/RemoveDupSortedArr.cpp LeetCode/SearchForRange.cpp)
+        LeetCode/ClimbingStairs.cpp LeetCode/InorderTreeTraversalIterative.cpp LeetCode/PermutationsInAString.cpp LeetCode/RemoveDupSortedArr.cpp LeetCode/SearchForRange.cpp LeetCode/LongestIncSubsequence.cpp LeetCode/Subsets.cpp LeetCode/MergeKSortedLists.cpp)
 
 add_executable(AlgoTests ${SOURCE_FILES})
 
